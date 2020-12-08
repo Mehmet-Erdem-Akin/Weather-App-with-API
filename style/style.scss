@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.bg {
+    height: 100vh;
+}
+
+.weather-app {
+    height: 75vh !important;
+    width: 70vh !important;
+    background-color: white;
+    .header {
+        background-color: rgb(29, 26, 26);
+    }
+    #weather {
+        font-weight: bold;
+        font-size: 1em;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        img {
+            border-radius: 50%;
+        }
+    }
+    .temparature {
+        #temp {
+            font-size: 3em;
+            font-weight: bold;
+        }
+    }
+    #place {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: blueviolet;
+  height: 100vh; }
+
+.bg {
+  height: 100vh; }
+
+.weather-app {
+  height: 75vh !important;
+  width: 70vh !important;
+  background-color: white; }
+  .weather-app .header {
+    background-color: #1d1a1a; }
+  .weather-app #weather {
+    font-weight: bold;
+    font-size: 1em; }
+  .weather-app img {
+    height: 100px;
+    width: 100px; }
+    .weather-app img img {
+      border-radius: 50%; }
+  .weather-app .temparature #temp {
+    font-size: 3em;
+    font-weight: bold; }
+  .weather-app #place {
+    font-size: 30px;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
